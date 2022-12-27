@@ -4,8 +4,13 @@
 <p>hii</p>
 <h1>W12HW-2</h1>
 <p><a href="https://mde.tw/content/Python.html?src=https://gist.githubusercontent.com/mdecycu/1e3171970153b18fa15d2377b0d1ef59/raw/8bb9a86b8c55e0d550a2a11cfa2b866bac777a2f/temp_conver_1.py">第一個練習</a></p>
+<pre># Brython 的 input() 可以接受輸入提示字串, 跳出瀏覽器輸入表單後, 將輸入內容以字串取回
+user_input_temp = input("請輸入攝氏溫度值:")
+# 接著列出 user_input_temp 變數的資料型別
+print(type(user_input_temp))</pre>
 <p></p>
 <p><a href="https://gist.githubusercontent.com/40923150/ff8df392005897ac373fbcce42d971ec/raw/bb929f0bf7862929d7478dce1485f74168b9037f/w12_hw-2.py">第二個練習</a></p>
+<p># Brython 的 input() 可以接受輸入提示字串, 跳出瀏覽器輸入表單後, 將輸入內容以字串取回<br/>user_input_temp = input("請輸入攝氏溫度值:")<br/># 接著列出 user_input_temp 變數的資料型別<br/>print(type(user_input_temp))<br/># 到這裡已知利用 input() 函式將傳回字串, 接著以 float() 將字串轉為浮點數<br/>user_input_temp = float(user_input_temp)<br/># 因為攝氏溫度乘上 9/5 之後再加上 32 就可以得到對應的華氏溫度值<br/>Fahrenheit = (user_input_temp*9/5) + 32<br/># 到這裡, Fahrenheit 資料型別為浮點數, 而 user_input_temp 在第 8 行也轉為浮點數<br/># 要將兩個浮點數與字串相加, 都必須透過 str() 轉為字串<br/>print("攝氏 " + str(user_input_temp) + " 度, 等於華氏 " + str(Fahrenheit) + " 度.")</p>
 <p></p><h1>W12 HW</h1>
 <p><a href="https://gist.githubusercontent.com/40923150/ff8df392005897ac373fbcce42d971ec/raw/f369f37c04587dabc01a5ac28679c63d658751d2/w12_hw-1.py">https://gist.githubusercontent.com/40923150/ff8df392005897ac373fbcce42d971ec/raw/f369f37c04587dabc01a5ac28679c63d658751d2/w12_hw-1.py</a></p>
 <div>
