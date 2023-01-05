@@ -2,7 +2,35 @@
 <p>cmsite: wcms use <a href="https://github.com/mdecycu/cmsimde">https://github.com/mdecycu/cmsimde</a> as submodule</p>
 <h1>20221014</h1>
 <p>hii</p>
-<h1>W12HW-2</h1>
+<h1>20230105</h1>
+<p>檢查倉儲名稱是否有誤</p>
+<p><img alt="檢查倉儲名稱是否正確" height="581" src="/images/螢幕擷取畫面_20230105_110733.png" width="1547"/></p>
+<h1>20230105練習</h1>
+<h2>ex1</h2>
+<p><img alt="" height="300" src="/images/螢幕擷取畫面_20230105_111735.png" width="456"/></p>
+<p><span>ex1在for迴圈裡面設定一個範圍1是起始 10是終點 以3為一個單位</span></p>
+<h2>ex2</h2>
+<p>函式呼叫與定義</p>
+<p><span><img alt="" height="364" src="/images/1-15.png" width="500"/></span></p>
+<p>ex2第5行end+1是因為原先範圍的最後沒有涵蓋到(例如到15但15沒有被涵蓋)</p>
+<p>tips函式呼叫不可縮排</p>
+<p>補充:sumto()函式可以同時呼叫很多 例如同時呼叫sumto(5,25) <span>sumto(1,100)就會有由1加到100等於:sth跟由5加到25等於:sth</span></p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">def sumto(start=1,end=15):
+    sum = 0
+    #start = 1
+    #end = 100
+    for i in range(start,end+1,1):
+        sum = sum + i
+        #print(i)
+    print("由" + str(start) + "加到" + str(end) + "等於:" + str(sum))
+          
+          
+sumto(5,25)
+sumto(1,100)</pre>
+<p><br/>列出python關鍵字</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">['False', 'None', 'True', 'and', 'as', 'assert', 'async', 'await', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']</pre>
+<p></p>
+<p></p><h1>W12HW-2</h1>
 <p><a href="https://mde.tw/content/Python.html?src=https://gist.githubusercontent.com/mdecycu/1e3171970153b18fa15d2377b0d1ef59/raw/8bb9a86b8c55e0d550a2a11cfa2b866bac777a2f/temp_conver_1.py">第一個練習</a></p>
 <pre># Brython 的 input() 可以接受輸入提示字串, 跳出瀏覽器輸入表單後, 將輸入內容以字串取回
 user_input_temp = input("請輸入攝氏溫度值:")
